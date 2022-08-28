@@ -1,0 +1,91 @@
+body {
+    margin: 0%;
+}
+
+#corpo-da-pagina {
+    width: 360px;
+    height: 640px;
+    background-color: #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteiner-login {
+    height: 490px;
+    min-height: 340px;
+    width: 300px;
+    min-width: 250px;
+    background-color: #2B80FF;
+    box-shadow: 4px 2px 3px #636363;
+    padding: 20px;
+    border-radius: 5px;
+    border-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px repeat(2, 50px) 100px 70px;
+    justify-items: center;
+}
+
+#titulo {
+    text-align: center;
+    align-self: center;
+}
+
+.inputs {
+    height: 30px;
+    width: 270px;
+    align-self: center;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.inputs:focus {
+    height: 40px;
+    width: 280px;
+}
+
+#submeter {
+    height: 50px;
+    width: 100px;
+    align-self: center;
+    border-radius: 10px;
+    border-style: none; 
+}
+
+#caixa-ancoras {
+    align-self: center;
+}
+
+.ancoras {
+    text-decoration: none;
+    color: black;
+}
+
+.button:active {
+    font-size: 15px;
+}
+
+.page:hover {
+    text-decoration: underline;
+}
+
+.page:active {
+    font-size: 15px;    
+}
+
+footer {
+    height: 240px;
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 800px;
+}
+
+.conteudo-footer {
+    color: #737373;
+}
