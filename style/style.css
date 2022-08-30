@@ -178,6 +178,7 @@ body {
     .ancoras {
         text-decoration: none;
         color: black;
+        font: 1em var(--global-Font-Family);
     }
     
     .button:active {
