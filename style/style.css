@@ -166,9 +166,10 @@ body {
     #submeter {
         height: 50px;
         width: 100px;
+        background-color: #F2CB05;
         align-self: center;
         border-radius: 10px;
-        border-style: none; 
+        border-style: none;
     }
     
     #caixa-ancoras {
