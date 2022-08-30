@@ -145,6 +145,7 @@ body {
     }
     
     #titulo {
+        font: 900 2.5em var(--global-Font-Family);
         text-align: center;
         align-self: center;
     }
