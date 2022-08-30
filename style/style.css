@@ -12,7 +12,7 @@ body {
 
 
 
-@media screen {
+@media screen and (device-height: 640px) and (device-width: 360px) {
 
     #corpo-da-pagina {    
         height: 600px;
@@ -117,7 +117,7 @@ body {
 
 
 
-@media screen and (device-height: 640px) and (device-width: 360px) {
+@media screen {
     
     #corpo-da-pagina {
         height: 640px;
