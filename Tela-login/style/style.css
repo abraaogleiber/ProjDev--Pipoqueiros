@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2? family= Ubuntu+Condensed & display=swap');
+
+body {
+    margin: 0;
+}
+
+:root {
+    --global-cor-ancoras: black;
+    --global-Font-Family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+
+
+@media screen {
+
+    #corpo-da-pagina {    
+        height: 600px;
+        min-height: 400px;
+        width: 100%;
+        background-image: linear-gradient(50deg, #0476D9 50%, #F2E205 50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #conteiner-login {
+        height: 450px;
+        min-height: 300px;
+        width: 310px;
+        min-width: 200px;
+        background-color: #04BF8A;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 10px 0;
+        border-style: none;
+    }
+    
+    header {
+        margin: 35px 0 20px 0;
+    }
+    
+    #titulo {
+        font: 2.5em var(--global-Font-Family);
+        color: #1C1E21;
+        font-weight: 900;
+        padding: 15px 0 15px 0;
+    }
+
+    .inputs {
+        height: 35px;
+        width: 280px;
+        border-radius: 5px;
+        border-style: none;
+        margin: 5px;
+    }
+
+    .inputs:focus {
+        height: 38px;
+        width: 283px;
+    }
+
+    #submeter {
+        height: 40px;
+        width: 100px;
+        background-color: #F2CB05;
+        border-radius: 10px;
+        border-style: none;
+        margin: 20px 0 30px 0;
+    }
+
+    #caixa-ancoras {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 320px;
+        padding-top: 20px;
+    }
+
+    .ancoras {
+        font: 1em var(--global-Font-Family);
+        color: var(--cor-ancoras);
+    }
+
+    .ancoras:link {
+        text-decoration: none;
+        color: var(--cor-ancoras);
+    }
+
+    .ancoras:hover {
+        text-decoration: underline;
+    }
+
+    #ancora-button:hover {
+        text-decoration: none;
+    }
+
+    footer {
+        background-color: #E1E1E1;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer > div {
+        width: 800px;
+        color: #737373;
+    }
+
+}
+
+
+
+
+@media screen and (device-height: 640px) and (device-width: 360px) {
+    
+    #corpo-da-pagina {
+        height: 640px;
+        width: 360px;
+        background-image: linear-gradient(50deg, #0476D9 50%, #F2E205 50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #conteiner-login {
+        height: 490px;
+        min-height: 340px;
+        width: 300px;
+        min-width: 250px;
+        background-color: #04BF8A;
+        box-shadow: 4px 2px 3px #636363;
+        padding: 20px;
+        border-radius: 5px;
+        border-style: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 120px repeat(2, 50px) 100px 70px;
+        justify-items: center;
+    }
+    
+    #titulo {
+        font: 900 2.5em var(--global-Font-Family);
+        text-align: center;
+        align-self: center;
+    }
+    
+    .inputs {
+        height: 30px;
+        width: 270px;
+        align-self: center;
+        border-radius: 5px;
+        border-style: none;
+    }
+    
+    .inputs:focus {
+        height: 40px;
+        width: 280px;
+    }
+
+    #submeter {
+        height: 50px;
+        width: 100px;
+        background-color: #F2CB05;
+        align-self: center;
+        border-radius: 10px;
+        border-style: none;
+    }
+    
+    #caixa-ancoras {
+        align-self: center;
+    }
+    
+    .ancoras {
+        text-decoration: none;
+        color: black;
+        font: 1em var(--global-Font-Family);
+    }
+    
+    .button:active {
+        font-size: 15px;
+    }
+    
+    .page:hover {
+        text-decoration: underline;
+    }
+    
+    .page:active {
+        font-size: 15px;    
+    }
+    
+    footer {
+        height: 240px;
+        background-color: #E1E1E1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    div {
+        width: 800px;
+        color: #737373;
+    }
+
+}
